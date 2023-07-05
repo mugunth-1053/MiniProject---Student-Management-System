@@ -30,7 +30,7 @@ def display_students():
         print("Student age: ",row[2])
         print("Student Gender: ",row[3])
         print("Student course: ",row[4])
-        print("$$$$$$$$$$$$$$$$$$$$$$$$")
+        print("__________________________")
 #function to update student
 def update_student():
     cursor =db.cursor()
